@@ -1,0 +1,204 @@
+*{
+    margin: auto;
+    padding: 0;
+
+}
+body{
+    font-family:Arial;
+    background-color:#05192A;
+    
+}
+span{
+    color: white;
+}
+header{
+    padding-top: 9px;
+    background-color:#04233f;
+    align-items: center;
+    text-align: center;   
+}
+header h1{
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    color: #1190ff;
+    padding: 10px;
+}
+nav{
+    color:#06345d;
+    background-color:#06345d;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 24px;
+    
+
+}
+ nav a{
+    margin: 28px;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    font-weight: bold;
+    font-size: 24px;
+    transition: ease-in-out 0.5s;
+}
+p{
+    color:#81c4ff;
+    font-size: 17px;
+}
+
+article{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9%;
+    padding: 50px 20px 50px 20px;
+    font-size: 20px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;     
+    background-color:#061f35;  
+}
+article img{
+    margin-bottom: 5%;
+}
+#section{
+    margin-top: 16%;
+    align-items: center;
+    text-align: center;
+    background-color:#082946;
+    padding-bottom: 20px;
+   
+}
+#section p{
+    padding: 46px;
+    padding-bottom: 18px;
+    text-align: center;
+    margin-top: 34px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+ .botao{
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    background-color:#008eb9;
+    font-size: 18px;
+    border:none;
+    margin-bottom:7px;
+    margin-top: none;
+    width: 20%;
+    height: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+.botao:hover{
+    background-color:white;
+    color:#1190ff;
+    transition: all 0.4s;
+}
+#button{
+    text-decoration: none;
+    display: block;
+    color:white;
+    background-color: #008eb9;
+    font-size: 22px;
+    border:none;
+    margin-bottom:7px;
+    margin-top: none;
+    width: 20%;
+    height: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px; 
+}
+#button:hover{
+    background-color:white;
+    color:#1190ff;    
+    transition: all 0.4s;
+}
+
+#article h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#article h3{
+    color: #1190ff;
+    text-align:center;
+    align-items: center;
+    font-size:26px;
+    padding-bottom: 8px;
+    padding-top: 13px;
+}
+#article li{
+    font-size: 19px;
+    margin-bottom:15px;
+    margin-right: 2%;
+    margin-left:19%;
+    padding-left: 220px;
+    padding-right: 25%;
+    color: white;
+}
+#art{
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom:10px;
+    margin-right: 33px;
+    margin-left:69px;
+    padding-right: 22px;
+    color: white;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    padding-top: 38px;
+    margin-bottom:88px;
+}
+footer p{
+    font-size: 18px;
+    color: gray;
+}
+/*Página contato*/
+#h1{
+    color: white;
+    font-size: 40px;
+}
+.caixote{
+    padding: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+.caixote img{
+    margin-top: 20px;
+}
+.caixote p{
+    color: white;
+}
+#cell p,#email p{
+    color:#1190ff;
+    margin:20px;
+    font-size: 30px;
+}
+.caixinha{
+    margin-top: 20px;
+    background-color:#04233f;
+    width: 25%;
+    height:95px;
+    border:2px solid #0d5b9e;
+    border-radius: 15px;
+}
+.caixinha p{
+    padding-top: 20px;
+    font-size: 27px;
+}
